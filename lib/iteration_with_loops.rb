@@ -7,7 +7,7 @@ def join_nested_strings(src)
   src.each{|x|
     src.each{|y|
     
-      if y.is_a? String
+      if y.is_a?(String)
           full_string = "${full_string} ${y}"
       end
     }
