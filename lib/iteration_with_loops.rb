@@ -10,6 +10,7 @@ def join_nested_strings(src)
       if y.is_a?(String)
         puts "TRUE"
           full_string = full_string + y + " "
+      else puts "FALSE"
       end
     }
   }
